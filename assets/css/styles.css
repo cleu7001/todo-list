@@ -1,0 +1,91 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #2BC0E4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+	background-color: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 0.625rem 1.25rem;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background-color: white;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	color: #666;
+}
+
+li:nth-child(2n) {
+	background-color: #f7f7f7;
+}
+
+input {
+	box-sizing: border-box;
+	font-size: 1.125rem;
+	background-color: #f7f7f7;
+	color: #2980b9;
+	width: 100%;
+	padding: 0.813rem 0.813rem 0.813rem 1.44rem;
+	border: 0;
+	display: block;
+	margin: 0;
+}
+
+input:focus {
+	background: white;
+	border: 0.188rem solid #2980b9;
+	padding: 0.63rem 0.63rem 0.63rem 1.25rem;
+	outline: none;
+}
+
+li span {
+	background-color: #e74c3c;
+	height: 2.5rem;
+	margin-right: 1.25rem;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 2.5rem;
+	opacity: 1;
+}
+
+#container {
+	background-color: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	width: 22.5rem;
+	margin: 6.25rem auto;
+}
+
+.completed {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.fa-plus {
+	float: right;
+	transition: 0.2s linear;
+}
+
+.fa-plus:hover {
+	color: #CAECC9;
+}
+
